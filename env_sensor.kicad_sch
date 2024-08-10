@@ -6913,7 +6913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2SK4017:TO230P230X650X740-3P"
+		(property "Footprint" "env-sensor:SOT-23"
 			(at 58.42 64.77 0)
 			(effects
 				(font
@@ -7013,7 +7013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2SK4017:TO230P230X650X740-3P"
+		(property "Footprint" "env-sensor:SOT-23"
 			(at 58.42 39.37 0)
 			(effects
 				(font
@@ -7490,7 +7490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2SK4017:TO230P230X650X740-3P"
+		(property "Footprint" "env-sensor:SOT-23"
 			(at 58.42 90.17 0)
 			(effects
 				(font
@@ -7535,8 +7535,17 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
+		(property "Sim.Pins" "1=G 2=S 3=D"
 			(at 53.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C916396"
+			(at 53.34 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
