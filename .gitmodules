@@ -4,3 +4,6 @@
 [submodule "lib/espressif"]
 	path = lib/espressif
 	url = https://github.com/espressif/kicad-libraries.git
+[submodule "lib/twco2sensor-mh-z19b"]
+	path = lib/twco2sensor-mh-z19b
+	url = https://gitlab.com/IT-Berater/twco2sensor-mh-z19b.git
