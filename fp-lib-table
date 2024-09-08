@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "env-sensor")(type "KiCad")(uri "${KIPRJMOD}/lib/env-sensor.pretty")(options "")(descr ""))
   (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/lib/espressif/footprints/Espressif.pretty")(options "")(descr ""))
+  (lib (name "mh-z19b")(type "KiCad")(uri "${KIPRJMOD}/lib/twco2sensor-mh-z19b/mh-z19b.pretty")(options "")(descr ""))
 )
