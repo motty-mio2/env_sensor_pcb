@@ -8667,6 +8667,28 @@
 			)
 		)
 	)
+	(global_label "adc2"
+		(shape input)
+		(at 31.75 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89f1fb12-6485-4f0e-acca-2c01017d4f7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.1687 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 55.88 78.74 0)
@@ -8702,28 +8724,6 @@
 		(uuid "8ad05335-bb44-43a3-a6e4-285ad8e47b86")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.0761 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "adc1"
-		(shape input)
-		(at 31.75 173.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8f659911-caea-4630-a6d5-998381d2df3e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.1687 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9173,28 +9173,6 @@
 			)
 		)
 	)
-	(global_label "adc2"
-		(shape input)
-		(at 31.75 176.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c6decda3-55b3-4674-8d7a-90ed464cdbdf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.1687 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LED_C1"
 		(shape input)
 		(at 41.91 45.72 180)
@@ -9349,28 +9327,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 31.75 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e0d3ab82-ffcc-4e96-a3a7-0e9b5965b184")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.8943 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "v5v"
 		(shape input)
 		(at 134.62 16.51 180)
@@ -9393,6 +9349,28 @@
 			)
 		)
 	)
+	(global_label "adc1"
+		(shape input)
+		(at 31.75 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1a968f4-a116-45f9-a564-04876c3033ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.1687 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EPD_ChipSelect"
 		(shape input)
 		(at 191.77 151.13 180)
@@ -9406,6 +9384,28 @@
 		(uuid "e1cb5a87-5b90-4b1d-aeef-afdc9edfce32")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 174.0892 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 31.75 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6d515a5-996c-4ec9-9684-a1e2f38daa11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.8943 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
