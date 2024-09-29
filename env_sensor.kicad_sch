@@ -10433,7 +10433,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1853272"
 			(at 53.34 148.59 90)
 			(effects
 				(font
@@ -10512,7 +10512,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 144.78 41.91 0)
 			(effects
 				(font
@@ -10582,6 +10582,15 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 109.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C500795"
 			(at 109.22 152.4 0)
 			(effects
 				(font
@@ -10975,7 +10984,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23186"
 			(at 60.96 172.72 0)
 			(effects
 				(font
@@ -11262,7 +11271,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C86598"
+		(property "LCSC" "C123070"
 			(at 109.22 143.51 0)
 			(effects
 				(font
@@ -12330,7 +12339,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1853272"
 			(at 175.26 41.91 90)
 			(effects
 				(font
@@ -12401,6 +12410,15 @@
 			)
 		)
 		(property "Description" "1A Current limited power switch, single channel, output discharge, reverse blocking, SOT-23-5"
+			(at 71.12 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C353882"
 			(at 71.12 154.94 0)
 			(effects
 				(font
@@ -12838,7 +12856,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C86598"
+		(property "LCSC" "C123070"
 			(at 87.63 152.4 0)
 			(effects
 				(font
@@ -13126,7 +13144,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23186"
 			(at 69.85 172.72 0)
 			(effects
 				(font
@@ -14125,10 +14143,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "LCSC" "C86598"
+		(property "LCSC" "C123070"
 			(at 87.63 144.78 0)
 			(effects
 				(font
