@@ -2355,7 +2355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2da04dc5-ad5c-4c4e-ab35-4649f2b01a85")
-		(property "Reference" "J6"
+		(property "Reference" "J22"
 			(at 73.66 132.08 90)
 			(effects
 				(font
@@ -2413,7 +2413,7 @@
 		(instances
 			(project "env_sensor"
 				(path "/f2c86898-5243-416b-bded-1093a29d5169/2c1791df-285c-4a68-8657-c16ce2e21da9"
-					(reference "J6")
+					(reference "J22")
 					(unit 1)
 				)
 			)
