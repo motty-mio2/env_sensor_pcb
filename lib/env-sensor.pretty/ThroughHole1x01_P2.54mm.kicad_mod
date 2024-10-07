@@ -1,0 +1,90 @@
+(footprint "ThroughHole1x01_P2.54mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row")
+	(tags "Through hole angled pin header THT 1x02 2.54mm single row")
+	(property "Reference" ""
+		(at 0 -1.55 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "782edb27-5b92-48d3-ad5f-c2d0e1325746")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ThroughHole1x01_P2.54mm"
+		(at 0 3.45 0)
+		(layer "F.Fab")
+		(uuid "421678c1-8ac8-425a-8cf8-02224747d661")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca2e5c3c-234d-45a9-a128-f1db80f2e6f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7f4b9b0-ae03-4371-bc33-889f177cfde2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f646850b-9560-4120-a9e5-360071ed6653")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.8 180)
+		(layer "F.Fab")
+		(uuid "810783ae-288d-40f5-b510-2df326c0bc84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9ae28bc9-54e2-4739-b2f7-1cd4def6fa89")
+	)
+)
