@@ -5624,12 +5624,6 @@
 		(uuid "3bba82d3-06f2-4580-88f6-f94febfe618a")
 	)
 	(junction
-		(at 50.8 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e7ef822-2a4a-48ea-b5ee-e303a68e9b05")
-	)
-	(junction
 		(at 171.45 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6007,7 +6001,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 165.1) (xy 49.53 165.1)
+			(xy 40.64 165.1) (xy 39.37 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6177,16 +6171,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 152.4) (xy 50.8 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f42525a-b7ed-45f5-b4b1-b88f4c30ad90")
-	)
-	(wire
-		(pts
 			(xy 259.08 134.62) (xy 262.89 134.62)
 		)
 		(stroke
@@ -6277,7 +6261,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 160.02) (xy 60.96 160.02)
+			(xy 39.37 160.02) (xy 60.96 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6317,7 +6301,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 167.64) (xy 49.53 167.64)
+			(xy 40.64 167.64) (xy 39.37 167.64)
 		)
 		(stroke
 			(width 0)
@@ -6497,6 +6481,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 170.18) (xy 40.64 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54708681-759c-4184-b0ab-dce795272224")
+	)
+	(wire
+		(pts
 			(xy 236.22 123.19) (xy 236.22 116.84)
 		)
 		(stroke
@@ -6517,7 +6511,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 172.72) (xy 49.53 172.72)
+			(xy 40.64 172.72) (xy 39.37 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7237,16 +7231,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 154.94) (xy 50.8 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afb24ce1-53cf-4a67-9c8f-55ebb46adefc")
-	)
-	(wire
-		(pts
 			(xy 234.95 27.94) (xy 237.49 27.94)
 		)
 		(stroke
@@ -7287,7 +7271,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 152.4) (xy 49.53 152.4)
+			(xy 39.37 152.4) (xy 53.34 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7347,7 +7331,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 157.48) (xy 59.69 157.48)
+			(xy 39.37 157.48) (xy 59.69 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7404,16 +7388,6 @@
 			(type default)
 		)
 		(uuid "c254a954-e7c4-4a52-ae2b-e4a25c7c1644")
-	)
-	(wire
-		(pts
-			(xy 50.8 170.18) (xy 49.53 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4a7c8cd-4792-4390-874e-c8d53605a7a3")
 	)
 	(wire
 		(pts
@@ -7504,16 +7478,6 @@
 			(type default)
 		)
 		(uuid "cc41dd8e-e77f-4ed1-bdaa-9dc3657b0adf")
-	)
-	(wire
-		(pts
-			(xy 52.07 154.94) (xy 50.8 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc4d7579-a05d-4414-bd53-2afa71c464d1")
 	)
 	(wire
 		(pts
@@ -7916,7 +7880,7 @@
 		(uuid "e37640e4-fcf0-409d-8ba5-369ea54190cf")
 	)
 	(label "U6_OUT"
-		(at 52.07 154.94 0)
+		(at 45.72 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8003,7 +7967,7 @@
 			)
 		)
 	)
-	(global_label "IO20"
+	(global_label "USB_D+"
 		(shape bidirectional)
 		(at 187.96 67.31 0)
 		(fields_autoplaced yes)
@@ -8839,9 +8803,9 @@
 			)
 		)
 	)
-	(global_label "IO19"
+	(global_label "USB_D-"
 		(shape bidirectional)
-		(at 50.8 167.64 0)
+		(at 40.64 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8851,7 +8815,7 @@
 		)
 		(uuid "6c52a2dd-a8b1-4208-a2b3-6ea28e1dba63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.2508 167.64 0)
+			(at 49.0908 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9213,7 +9177,7 @@
 			)
 		)
 	)
-	(global_label "IO19"
+	(global_label "USB_D-"
 		(shape bidirectional)
 		(at 187.96 64.77 0)
 		(fields_autoplaced yes)
@@ -9323,9 +9287,9 @@
 			)
 		)
 	)
-	(global_label "IO20"
+	(global_label "USB_D+"
 		(shape bidirectional)
-		(at 50.8 172.72 0)
+		(at 40.64 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9335,7 +9299,7 @@
 		)
 		(uuid "ab405ef6-209a-42a5-a15c-f256dbaf03c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.2508 172.72 0)
+			(at 49.0908 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9653,9 +9617,9 @@
 			)
 		)
 	)
-	(global_label "IO19"
+	(global_label "USB_D-"
 		(shape bidirectional)
-		(at 50.8 165.1 0)
+		(at 40.64 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9665,7 +9629,7 @@
 		)
 		(uuid "dd0925a0-83b5-462c-b58b-42aaacde067b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.2508 165.1 0)
+			(at 49.0908 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9851,9 +9815,9 @@
 			)
 		)
 	)
-	(global_label "IO20"
+	(global_label "USB_D+"
 		(shape bidirectional)
-		(at 50.8 170.18 0)
+		(at 40.64 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9863,7 +9827,7 @@
 		)
 		(uuid "f3353c90-54da-45d2-8acb-2fa0ef99c6b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.2508 170.18 0)
+			(at 49.0908 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12057,7 +12021,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 190.5 0)
+		(at 16.51 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12066,7 +12030,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d307fa8-80a7-4d52-a61d-b72214fc71ec")
 		(property "Reference" "#PWR02"
-			(at 26.67 196.85 0)
+			(at 16.51 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12075,7 +12039,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.67 195.58 0)
+			(at 16.51 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12083,7 +12047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 190.5 0)
+			(at 16.51 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12092,7 +12056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 190.5 0)
+			(at 16.51 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12101,7 +12065,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 190.5 0)
+			(at 16.51 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13834,7 +13798,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 190.5 0)
+		(at 24.13 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13843,7 +13807,7 @@
 		(fields_autoplaced yes)
 		(uuid "cddd8ae1-4995-4c42-b6c2-bbec5fa8015b")
 		(property "Reference" "#PWR03"
-			(at 34.29 196.85 0)
+			(at 24.13 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13852,7 +13816,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 195.58 0)
+			(at 24.13 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13860,7 +13824,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 190.5 0)
+			(at 24.13 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13869,7 +13833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 190.5 0)
+			(at 24.13 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13878,7 +13842,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 190.5 0)
+			(at 24.13 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13976,16 +13940,15 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 34.29 167.64 0)
+		(at 24.13 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "deaa4db9-26e1-48f0-b586-3210a09d36df")
 		(property "Reference" "J7"
-			(at 34.29 144.78 0)
+			(at 24.13 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13993,7 +13956,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 34.29 147.32 0)
+			(at 28.194 147.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14001,7 +13964,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
-			(at 38.1 167.64 0)
+			(at 27.94 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14010,7 +13973,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 38.1 167.64 0)
+			(at 27.94 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14019,7 +13982,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 34.29 167.64 0)
+			(at 24.13 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14028,7 +13991,7 @@
 			)
 		)
 		(property "LCSC" "C7095263"
-			(at 34.29 167.64 0)
+			(at 24.13 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -37,8 +37,8 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.6,
-          "height": 2.4,
+          "drill": 0.0,
+          "height": 0.95,
           "width": 0.9
         },
         "silk_line_width": 0.15,
@@ -48,13 +48,11 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [
-        "courtyards_overlap|103626715|41567706|14965389-2bd1-429c-a391-b88c300aea95|4c82e93e-3d3f-4ce6-be48-eba07f3c4fd4",
-        "courtyards_overlap|138626715|41567706|14965389-2bd1-429c-a391-b88c300aea95|6cdf3de8-918c-43c1-8f32-339654316a71",
         "drill_out_of_range|118578000|57028000|504008ea-ff29-428e-b491-378170e33410|00000000-0000-0000-0000-000000000000",
         "drill_out_of_range|118578000|58428000|4b9365ae-7db2-4357-b691-fa5f6afa6db9|00000000-0000-0000-0000-000000000000",
         "drill_out_of_range|119278000|56328000|9e836ddf-37e5-43cc-80c5-88333604baaf|00000000-0000-0000-0000-000000000000",
@@ -66,11 +64,7 @@
         "drill_out_of_range|120678000|57728000|33ebb83f-e2a9-482b-870e-244175050048|00000000-0000-0000-0000-000000000000",
         "drill_out_of_range|120678000|59128000|ee8c9230-4ea9-4aac-a264-b528304fbee2|00000000-0000-0000-0000-000000000000",
         "drill_out_of_range|121378000|57028000|1e948690-261e-4b7e-9b1e-0f29f3517fbe|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|121378000|58428000|b1bd9d94-68ff-4623-bac4-7cdf32d24552|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|104000000|45000000|4c82e93e-3d3f-4ce6-be48-eba07f3c4fd4|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|104000000|45000000|4d40ac69-75e3-4f5c-b887-9f19c80b892e|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|139000000|45000000|6cdf3de8-918c-43c1-8f32-339654316a71|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|139000000|45000000|89e3ae11-fbe3-4d5b-ae57-135352c30bb7|00000000-0000-0000-0000-000000000000"
+        "drill_out_of_range|121378000|58428000|b1bd9d94-68ff-4623-bac4-7cdf32d24552|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -483,7 +477,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "USB_D-"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
