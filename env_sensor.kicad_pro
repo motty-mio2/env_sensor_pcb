@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.95,
-          "width": 0.9
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -51,7 +51,13 @@
           "min_clearance": 0.2
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [
         "drill_out_of_range|118578000|57028000|504008ea-ff29-428e-b491-378170e33410|00000000-0000-0000-0000-000000000000",
         "drill_out_of_range|118578000|58428000|4b9365ae-7db2-4357-b691-fa5f6afa6db9|00000000-0000-0000-0000-000000000000",
@@ -64,8 +70,7 @@
         "drill_out_of_range|120678000|57728000|33ebb83f-e2a9-482b-870e-244175050048|00000000-0000-0000-0000-000000000000",
         "drill_out_of_range|120678000|59128000|ee8c9230-4ea9-4aac-a264-b528304fbee2|00000000-0000-0000-0000-000000000000",
         "drill_out_of_range|121378000|57028000|1e948690-261e-4b7e-9b1e-0f29f3517fbe|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|121378000|58428000|b1bd9d94-68ff-4623-bac4-7cdf32d24552|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|162116822|82980000|947ba5cd-151a-4cf7-8ddf-683440d3e3b2|00000000-0000-0000-0000-000000000000"
+        "drill_out_of_range|121378000|58428000|b1bd9d94-68ff-4623-bac4-7cdf32d24552|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -187,7 +192,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -214,7 +221,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -648,10 +660,6 @@
     [
       "f2c86898-5243-416b-bded-1093a29d5169",
       "ルート"
-    ],
-    [
-      "2c1791df-285c-4a68-8657-c16ce2e21da9",
-      "sensor"
     ]
   ],
   "text_variables": {}
